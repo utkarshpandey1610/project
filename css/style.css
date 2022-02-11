@@ -1,0 +1,30 @@
+
+/*external css*/
+body{
+  background-color: #FEECE9;
+}
+hr{
+/* default values ko change karke hr banaya hai (google it-css defult broweser value ) phir isme border ka dekho
+border style ke bare me padho border style ki default value dekho usko change karke none kiya phir border-top-style ko dotted kiya
+taki desired design mile
+width ko percentage me isliye likha to make ir responsive */
+/*  border-style: none;
+border-top-style: dotted ;
+border-color: grey;
+border-width: 10px;
+
+width: 10%;*/
+/*two ways to do same thing*/
+border-style:dotted;
+height: 0px;
+border-top-style: none;
+border-color: grey;
+border-width:5px;
+width: 10% ;
+
+
+
+
+
+
+}
